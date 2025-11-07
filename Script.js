@@ -16,6 +16,8 @@ const iconMap = {
   m_soccer: '<i class="fas fa-futbol"></i>',
   w_soccer: '<i class="fas fa-futbol"></i>',
   volleyball: '<i class="fas fa-volleyball-ball"></i>',
+  m_basketball: '<i class="fas fa-basketball-ball"></i>',
+  w_basketball: '<i class="fas fa-basketball-ball"></i>',
   athletic: '<i class="fas fa-running"></i>',
   promo: '<i class="fas fa-bullhorn"></i>'
 };
@@ -84,29 +86,83 @@ const iconMap = {
     ],
     '2025-10-22': [
       { type: 'athletic', sport: 'm_soccer', title: 'M. Soccer vs. Texas A&M International' },
-      { type: 'athletic', sport: 'w_soccer', title: 'W. Soccer vs. St. Marys' },
-      { type: 'promo', title: 'Glow Night', description: 'Join us as we light up the pitch at Citizens 1st Bank-Perkins Field blue for an exciting Glow Night. We will be giving away Orange UT Tyler Soccer shirts as well as various items that glow orange! *Womens Game' }
+      { type: 'athletic', sport: 'w_soccer', title: 'W. Soccer vs. St. Marys' }
     ],
     '2025-10-29': [
-      { type: 'athletic', sport: 'w_soccer', title: 'W. Soccer vs. ENMU' }
+      { type: 'athletic', sport: 'm_soccer', title: 'M. Soccer vs. UT Dallas' },
+      { type: 'athletic', sport: 'w_soccer', title: 'W. Soccer vs. ENMU' },
+      { type: 'promo', title: 'Blue Out', description: 'Join us as we paint the pitch at Citizens 1st Bank-Perkins Field blue!' }
     ],
     '2025-10-31': [
       { type: 'athletic', sport: 'volleyball', title: 'Volleyball vs. Sul Ross State' },
       { type: 'promo', title: 'Halloween Costume Contest', description: 'Come wearing a costume and be entered into a costume contest, judged by the fans! Winner will receive a $250 gift card.' }
-    ],
-    '2025-11-01': [
-      { type: 'athletic', sport: 'volleyball', title: 'Volleyball vs. Western New Mexico' }
-    ],
-    '2025-11-05': [
-      { type: 'athletic', sport: 'm_soccer', title: 'M. Soccer vs. UT Dallas' },
-      { type: 'promo', title: 'Blue Out', description: 'Join us as we paint the pitch at Citizens 1st Bank-Perkins Field blue for an exciting Blue Out for the last game of the season!' }
     ],
     '2025-11-14': [
       { type: 'athletic', sport: 'volleyball', title: 'Volleyball vs. TWU' },
       { type: 'promo', title: 'Fan Appreciation', description: 'We want to thank all who help contrbute to the success of UT Tyler Athletics. Whether it be faculty, staff, students, or our community, we appreciate you all! Free hats for the first 100 fans! There will also be raffle drawings throughout the game. Remember to wear blue!' },
       { type: 'promo', title: 'Blue Out', description: 'Wear your best Patriots gear and be ready to turn the HPC blue!' }
     ],
-    '2025-11-15': [{ type: 'athletic', sport: 'volleyball', title: 'Volleyball vs. DBU' }]
+    '2025-11-15': [{ type: 'athletic', sport: 'volleyball', title: 'Volleyball vs. DBU' }
+    ],
+    '2025-11-21': [{ type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Jarvis Christian' }
+    ],
+    '2025-11-24': [
+       { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Our Lady of the Lake'},
+       { type: 'promo', title: 'Opening Night', description: 'Come celebrate the start of basketball season as the Patriots open their season against Our Lady of the Lake!'}
+    ],
+    '2025-11-25': [
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Our Lady of the Lake' },
+    ],
+    '2025-11-28': [{ type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Dallas Christian' }],
+    '2025-12-13': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. St. Edwards' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. St. Edwards' },
+      { type: 'promo', title: 'Holiday Hoopla', description: 'Come celebrate the holiday season with us! Donate to our food and toy drives and receive free admission and a free beanie! We will also have a Santa photo station!'  }
+    ],
+    '2025-12-17': [{ type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Adams State' }],
+    '2025-12-18': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Fort Lewis College' },
+    ],
+    '2026-01-08': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. WNMU' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. WNMU' },
+      { type: 'promo', title: 'Rep the Rose Night', description: 'Come Rep the Rose and celebrate our beautiful city of Tyler. We will be highlighting our community and what makes it so special, socome help us show how grateful we are to call Tyler home!' }
+    ],
+    '2026-01-10': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Sul Ross State' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Sul Ross State' },
+      { type: 'promo', title: 'Southside Bank Day', description: 'Callling all Southside Bank customers and employees. Thanking you for all that you do to help the Tyler community and UT Tyler Athletics! Free admission for Southside Bank customers and employees.' }
+    ],
+    '2026-01-22': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Lubbock Christian' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Lubbock Christian' },
+      { type: 'promo', title: 'Hawaiian Night presented by UTHealth East Texas', description: 'Welcoming all students back to campus! Free food and Hawaiian shirts as well as a luau tailgate before the game! Come start off the semester right!' }
+    ],
+    '2026-01-24': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Midwestern State' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Midwestern State' },
+      { type: 'promo', title: 'Military Appreciation Day', description: 'Thanking all First Responders and service members for all that they do to protect us!'} 
+    ],
+    '2026-02-14': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Oklahoma Christian' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Oklahoma Christian' },
+      { type: 'promo', title: 'Shoot Your Shot Night', description: 'Love is in the air! Shoot your Shot and bring someone to the game, or grab your sweetheart and come cheer on the Patriots for some exciting Valentines Day action!'}
+    ],
+    '2026-02-17': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Texas Womans University' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Dallas Baptist' },
+      { type: 'promo', title: 'Student Success Night', description: 'Help us celebrate our students and light up the HPC! Glow theme night with a VERY special performance at halftime!'}
+    ],
+    '2026-02-26': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Texas A&M International' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Texas A&M International' },
+      { type: 'promo', title: '80s Night/Greek Night', description: 'Lets kick it old school and also celbrate our Greek Life at UTTyler. Come for special retro themed giveways and a vibe that you just cant match these days.'}
+    ],
+   '2026-02-28': [
+      { type: 'athletic', sport: 'w_basketball', title: 'W. Basketball vs. Texas A&M Kingsville' },
+      { type: 'athletic', sport: 'm_basketball', title: 'M. Basketball vs. Texas A&M Kingsville' },
+      { type: 'promo', title: 'Texas Day', description: 'Help us celebrate the great state we call home, with special performances and giveaways that help highlight why everything is better in Texas.'}
+    ]
   };
 function renderCalendar() {
   monthYearTextEl.textContent = `${monthNames[currentDate.getMonth()]} ${currentDate.getFullYear()}`;
@@ -305,7 +361,6 @@ const date = new Date(Number(yyyy), Number(mm) - 1, Number(dd));
     eventListEl.appendChild(dayBlock);
   });
 }
-
 
 renderCalendar();
 
