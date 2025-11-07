@@ -1,5 +1,5 @@
 const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-let currentDate = new Date(2025, 7, 1);
+let currentDate = new Date(2025, 10, 1);
 
 const sportFilterEl = document.getElementById('sportFilter');
 const typeFilterEl = document.getElementById('typeFilter');
@@ -363,6 +363,7 @@ const date = new Date(Number(yyyy), Number(mm) - 1, Number(dd));
 }
 
 renderCalendar();
+
 
 
 
